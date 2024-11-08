@@ -1,0 +1,58 @@
+/* App.css */
+
+/* Input field container */
+.input-container {
+  width: 100%;
+  max-width: 500px; /* Max width of the input field container */
+  margin-bottom: 15px; /* Adds space between the input and the video player */
+  padding: 5px;
+  display: flex;
+  justify-content: center; /* Centers the input field horizontally */
+}
+
+/* Input field styling */
+.input-field {
+  width: 100%; /* Makes the input take up the full width of its container */
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+  border: 1px solid #444; /* Slightly lighter border */
+  border-radius: 4px; /* Rounded corners */
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #3b82f6; /* Blue border when focused */
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3); /* Focus effect */
+}
+
+/* Video player container styles */
+.video-container {
+  flex: 1;
+  min-width: 600px; /* Prevents the video player from becoming too small */
+  max-width: 800px; /* Maximum width for the video player */
+  width: 100%; /* Ensures the video player width is 100% of available space */
+  background-color: #000;
+  border-radius: 8px;
+  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px; /* Adds space below the video player */
+}
+
+/* Upload container styles */
+.upload-container {
+  width: 400px; /* Width of the upload section */
+  max-width: 600px; /* Max width for the upload section */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  border-radius: 8px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* Optional: Styling for Video.js player if you need custom styles */
+.video-js {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
